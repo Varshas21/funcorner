@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>guess_the_audio</title>
+		<style type="text/css">
+			*{
+                margin-top:0px;
+                padding:0;
+                box-sizing:border-box;
+            }
+			body{
+	            color: black;
+	            font-size: 20px;
+	            font-weight: bolder;
+	        }
+	        #btn{
+				text-transform: uppercase;
+				font-size:20px;
+                cursor:pointer;
+				font-weight: 600;
+                padding: 20px;
+                margin-top:15px;
+				margin-left: 450px;
+                color:black;
+				background-color:#9db0dc;
+				border:0;
+				border-radius: 12px;
+				width:300px;
+	        }
+			header{
+                width:100%;
+                height:130px;
+                background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6y_WXKs0rQ5FLuMVren9YRq5r_jmBIYDBKO1Z6qTOM6WG9LvCgscVyGFKC5UP7rKtxwY&usqp=CAU);
+			}
+			h1{
+				font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align:center;
+                color:black;
+                font-size:45px;
+                text-transform: uppercase;
+                letter-spacing:15px;
+                margin-top: 0px;
+				padding-top:20px;
+            }
+			#result{
+				margin-top: 100px;
+				text-align: center;
+				font-size: 45px;
+				font-weight: 600;
+			}
+			.exit{
+				float:right;
+				height: 40px;
+				width: 90px;
+				text-decoration: none;
+				color: white;
+				border-color: white;
+				background-color:red;
+				font-size:25px;
+			}
+			div{
+				margin-left:400px;
+				margin-top: 5px;
+			}
+			.option:hover{
+				background-color: rgba(128, 128, 128, 0.226);
+			}
+			p.option{
+				height: 30px;
+				width:400px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1><span style="background-color:white">Guess the audio</span></h1>
+			<button class="exit" onclick="history.back()">EXIT</button>
+		</header>
+		<br>
+		<form name="quiz" id="quiz">
+			<div>
+				<p class="qstn"><audio controls src="audios/audio1.mp3"></audio></p>
+				<p class="option"><input type="radio" name="question1" value="Uptown Funk">A.Uptown Funk</p>
+				<p class="option"><input type="radio" name="question1" value="Savage Love">B.Savage Love</p>
+				<p class="option"><input type="radio" name="question1" value="Oops!..I did it again">C.Oops!..I did it again</p>
+				<p class="option"><input type="radio" name="question1" value="Offo">D.Offo</p>
+			</div>
+		<br>
+			<div>
+				<p class="qstn"><audio controls src="audios/audio2.mp3"></audio></p>
+				<p class="option"><input type="radio" name="question2" value="Baby">A.Baby</p>
+				<p class="option"><input type="radio" name="question2" value="Mistletoe">B.Mistletoe</p>
+				<p class="option"><input type="radio" name="question2" value="Love yourself">C.Love yourself</p>
+				<p class="option"><input type="radio" name="question2" value="Sorry">D.Sorry</p>
+			</div>
+			<br>
+			<div>
+				<p class="qstn"><audio controls src="audios/audio3.mp3"></audio></p>
+				<p class="option"><input type="radio" name="question3" value="Shallow">A.Shallow</p>
+				<p class="option"><input type="radio" name="question3" value="Poker face">B.Poker face</p>
+				<p class="option"><input type="radio" name="question3" value="Rain on me">C.Rain on me</p>
+				<p class="option"><input type="radio" name="question3" value="Bad Romance">D.Bad Romance</p>
+			</div>
+			<br>
+			<div>
+				<p class="qstn"><audio controls src="audios/audio4.mp3"></audio></p>
+				<p class="option"><input type="radio" name="question4" value="Umbrella">A.Umbrella</p>
+				<p class="option"><input type="radio" name="question4" value="Say so">B.Say so</p>
+				<p class="option"><input type="radio" name="question4" value="Poker Face">C.Poker Face</p>
+				<p class="option"><input type="radio" name="question4" value="Happier than ever">D.Happier than ever</p>
+			</div>
+			<br>
+			<div>
+				<p class="qstn"><audio controls src="audios/audio5.mp3"></audio></p>
+				<p class="option"><input type="radio" name="question5" value="What makes you beautiful">A.What makes you beautiful</p>
+				<p class="option"><input type="radio" name="question5" value="Night changes">B.Night changes</p>
+				<p class="option"><input type="radio" name="question5" value="How you like that">C.How you like that</p>
+				<p class="option"><input type="radio" name="question5" value="Need to know">D.Need to know</p>
+			</div>
+			<br>
+			<div>
+				<p class="qstn"><audio controls src="audios/audio6.mp3"></audio></p>
+				<p class="option"><input type="radio" name="question6" value="The feels">A.The feels</p>
+				<p class="option"><input type="radio" name="question6" value="Gangnam Style">B.Gangnam Style</p>
+				<p class="option"><input type="radio" name="question6" value="Call me by your name">C.Call me by your name</p>
+				<p class="option"><input type="radio" name="question6" value="Pretty savage">D.Pretty savage</p>
+			</div>
+			<br>
+			<div>
+				<p class="qstn"><audio controls src="audios/audio7.mp3"></audio></p>
+				<p class="option"><input type="radio" name="question7" value="Vacation">A.Vacation</p>
+				<p class="option"><input type="radio" name="question7" value="Rockstar">B.Rockstar</p>
+				<p class="option"><input type="radio" name="question7" value="Monster">C.Monster</p>
+				<p class="option"><input type="radio" name="question7" value="Umbrella">D.Umbrella</p>
+			</div>
+			<br>
+			<input type="button" name="done" value="I am done" id="btn" onclick="check()"/>
+		</form>
+	<p id="result"></p>
+	<script type="text/javascript">
+		function check(){
+	var c=0;
+	var q1=document.quiz.question1.value;
+	var q2=document.quiz.question2.value;
+	var q3=document.quiz.question3.value;
+	var q4=document.quiz.question4.value;
+	var q5=document.quiz.question5.value;
+	var q6=document.quiz.question6.value;
+	var q7=document.quiz.question7.value;
+	var result=document.getElementById('result');
+	var quiz=document.getElementById("quiz");
+	if(q1=="Oops!..I did it again"){c++}
+	if(q2=="Baby"){c++}
+	if(q3=="Bad Romance"){c++}
+	if(q4=="Poker Face"){c++}
+	if(q5=="What makes you beautiful"){c++}
+	if(q6=="Gangnam Style"){c++}
+	if(q7=="Umbrella"){c++}
+		quiz.style.display="none";
+		if(c==7)
+		{
+			result.textContent='You have got them all corect!';
+			
+		}
+		else
+		{
+			result.textContent='You have got ' + c + ' correct.';
+		}
+}
+	</script>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+header{
+    padding:40px; 
+    background-color: lavender; 
+    text-align: center; 
+    font-size: 80px; 
+    color:rgb(9, 15, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(https://image.shutterstock.com/image-vector/seamless-pattern-zodiac-signs-can-600w-741416077.jpg);  
+    position:sticky;
+    top:0;
+    border-radius: 10px;
+}
+
+div{
+    margin-left:100px;
+    margin-right:100px;
+}
+#c1{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom, #dd915e,rgb(202, 28, 57));
+    border-radius: 10px;
+}
+#c2{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom, rgb(37, 99, 37), rgb(219, 219, 110));
+    border-radius: 10px;
+}
+#c3{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(82, 110, 204),rgb(124, 206, 199),rgb(219, 219, 110));
+    border-radius: 10px;
+}
+#c4{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(82, 110, 204),rgb(124, 206, 199),rgb(139, 211, 211));
+    border-radius: 10px;
+}
+#c5{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(236, 18, 55),#f19941,rgb(241, 222, 184));
+    border-radius: 10px;
+}
+#c6{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(96, 157, 207),rgb(92, 173, 173),rgb(156, 103, 165));
+    border-radius: 10px;
+}
+#c7{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(42, 56, 97),rgb(90, 104, 148),rgb(92, 173, 173));
+    border-radius: 10px;
+}
+#c8{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(rgb(165, 17, 42),rgb(190, 101, 101), rgb(236, 172, 52));
+    border-radius: 10px;
+}
+#c9{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(221, 89, 72),rgb(218, 164, 164),rgb(110, 161, 209));
+    border-radius: 10px;
+}
+#c10{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom, rgb(37, 99, 37),rgb(125, 179, 125), rgb(219, 219, 110));
+    border-radius: 10px;
+}
+#c11{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(80, 169, 253),rgb(120, 209, 224));
+    border-radius: 10px;
+}
+#c12{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(rgb(5, 170, 156),rgb(139, 211, 211),rgb(80, 169, 253),rgb(189, 162, 224));
+    border-radius: 10px;
+}
+
+

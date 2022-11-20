@@ -1,0 +1,68 @@
+a:link {
+    text-decoration: none;
+}
+body {
+    background-image:radial-gradient(circle at center,rgb(213, 180, 235),rgb(173, 178, 221),rgb(173, 230, 182),rgb(142, 214, 153));
+}
+img:hover{
+    transform:scale(1.5);
+}
+
+#daily{
+    width: 100px;
+    padding: 10px;
+    margin: 100px 100px 55px 150px;
+    display: inline-block;  
+}
+#monthly{
+    width: 100px;
+    padding: 10px;
+    margin: 100px 100px 55px 150px;
+    display: inline-block;
+   
+}
+#yearly{
+    width: 100px;
+    padding: 10px;
+    margin: 100px 100px 55px 150px;
+    display: inline-block; 
+}
+#one{
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0px 0px 150px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 150px;
+    display: inline;
+}
+
+#two{
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0px 0px 160px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 150px;
+    display: inline;
+}
+
+#three{
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0px 0px 170px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 150px;
+    display: inline;
+}
+footer{
+    margin-top:170px;
+}
+

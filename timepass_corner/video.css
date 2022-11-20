@@ -1,0 +1,87 @@
+header{
+    padding:40px; 
+    background-color:lightblue; 
+    text-align: center; 
+    font-size: 80px; 
+    color:#475a81;
+    font-family: cursive;
+    border-radius: 10px;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/20/09/seamless-pattern-with-navy-blue-camera-vector-34102009.webp);
+
+}
+iframe:hover{
+    transform:scale(1.5);
+    background-color: rgb(231, 177, 229);
+    border: 5px solid black;
+}
+iframe{
+    margin-left:5px;
+}
+div.vid{
+    display:flex;
+}
+div.sat{
+    height:500px;
+    width: 100%;
+    overflow-x: auto;
+    margin:10px 10px 10px 10px;
+    background-image:linear-gradient(to bottom,rgb(133, 71, 248),rgb(140, 93, 228),rgb(173, 173, 255)); 
+}
+.sat::-webkit-scrollbar{
+    width:0px;
+}
+div.ata{
+    height:450px;
+    width: 100%;
+    overflow-x: auto;
+    margin:10px 10px 10px 10px;
+    background-image:linear-gradient(to bottom,rgb(173, 173, 255),rgb(180, 236, 255),rgb(187, 255, 255)); 
+}
+.ata::-webkit-scrollbar{
+    width:0px;
+}
+div.teded{
+    height:500px;
+    width: 100%;
+    overflow-x: auto;
+    margin:10px 10px 10px 10px;
+    background-image:linear-gradient(to bottom,rgb(187, 255, 255),rgb(212, 245, 212),rgb(108, 245, 181));
+}
+.teded::-webkit-scrollbar{
+    width:0px;
+}
+div.bean{
+    height:450px;
+    width: 100%;
+    overflow-x: auto;
+    margin:10px 10px 10px 10px;
+    background-image:linear-gradient(to bottom,rgb(108, 245, 181),rgb(193, 255, 175),rgb(242, 247, 174)) 
+}
+.bean::-webkit-scrollbar{
+    width:0px;
+}
+div.food{
+    height:450px;
+    width: 100%;
+    overflow-x: auto;
+    margin:10px 10px 10px 10px;
+    background-image:linear-gradient(to bottom,rgb(242, 247, 174),rgb(247, 200, 130),rgb(252, 167, 98)) 
+}
+.food::-webkit-scrollbar{
+    width:0px;
+}
+div.ted{
+    height:450px;
+    width: 100%;
+    overflow-x: auto;
+    margin:10px 10px 10px 10px;
+    background-image:linear-gradient(to bottom,rgb(252, 167, 98),rgb(255, 160, 132),rgb(255, 90, 48)) 
+}
+.ted::-webkit-scrollbar{
+    width:0px;
+}
+p{
+    font-size: 35px;
+    font-family:cursive;
+}
+

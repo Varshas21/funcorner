@@ -1,0 +1,53 @@
+header{
+    padding:40px; 
+    text-align: center; 
+    font-size: 100px; 
+    color:rgb(11, 68, 133);
+    font-family: cursive;
+    background-image: url(https://image.shutterstock.com/image-vector/podcast-microphone-trendy-design-flat-600w-1842840595.jpghttps://image.shutterstock.com/image-vector/podcast-items-seamless-pattern-cover-600w-2074955944.jpg);
+}
+body{
+    background-image:radial-gradient(circle at center,rgb(5, 170, 156),rgb(139, 211, 211),rgb(231, 198, 108),#f3c291);
+}
+#econ
+{
+    font-size: 50px;
+    margin: 30px 250px 0px 0px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+#news
+{
+    font-size: 50px;
+    margin: 30px 250px 0px 0px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+#cli
+{
+    font-size: 50px;
+    margin: 30px 250px 0px 0px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+#moti{
+    font-size: 50px;
+    margin: 30px 250px 0px 0px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+#econ1
+{
+    margin: 30px 250px 0px 0px;
+}
+#news1
+{
+    margin: 30px 250px 0px 0px;
+}
+#cli1
+{
+    margin: 30px 250px 0px 0px;
+}
+#moti1{
+    margin: 30px 250px 0px 0px;
+}

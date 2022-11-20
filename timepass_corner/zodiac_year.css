@@ -1,0 +1,128 @@
+header{
+    padding:40px; 
+    background-color: lavender; 
+    text-align: center; 
+    font-size: 80px; 
+    color:black;
+    font-family: cursive;
+    background-image:url(https://image.shutterstock.com/image-vector/magical-banner-astrology-celestial-alchemy-600w-1816368056.jpg);  
+    position:sticky;
+    top:0;
+    border-radius: 10px;
+}
+body{
+    background-color: #f1e2c1;
+}
+div{
+    margin-left:100px;
+    margin-right:100px;
+}
+#c1{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c2{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c3{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c4{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c5{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c6{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c7{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c8{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c9{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c10{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c11{
+    height:150px; 
+    margin-bottom: 20px;
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+    border-radius: 10px;
+}
+#c12{
+    height:150px;
+    margin-bottom: 20px; 
+    color:white;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(to bottom,rgb(77, 77, 77),rgb(131, 129, 129));
+}
+
+

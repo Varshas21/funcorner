@@ -1,0 +1,81 @@
+a:link {
+    text-decoration: none;
+}
+body {
+    background-image:radial-gradient(circle at center,rgb(193, 157, 240),lightblue);
+}
+header{
+    padding:50px; 
+    margin:0 10px 0 10px;
+    text-align: center; 
+    font-size: 80px; 
+    color:#ffffff;
+    font-family: cursive;
+    background-image:url(https://cdn.vectorstock.com/i/1000x1000/68/93/seamless-pattern-with-watches-vector-10706893.webp); 
+    position:sticky;
+    top:0;
+    border-radius: 10px;
+    height: 90px;
+}
+#pod{
+    width: 100px;
+    padding: 10px;
+    margin: 10px 80px 10px 150px;
+    display: inline-block;  
+}
+#zod{
+    width: 100px;
+    padding: 10px;
+    margin: 10px 80px 10px 180px;
+    display: inline-block;  
+}
+#vid{
+    width: 100px;
+    padding: 10px;
+    margin: 10px 90px 10px 150px;
+    display: inline-block; 
+}
+#one{
+    width: 100px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    margin: 10px 100px 0px 200px;
+    background-color: rgb(182, 217, 240);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 10px;
+    display: inline;
+}
+
+#two{
+    width: 100px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    margin: 10px 100px 0px 170px;
+    background-color: rgb(182, 217, 240);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    display: inline;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#three{
+    width: 100px;
+    padding: 10px;
+    border: 5px solid whitesmoke;
+    margin: 10px 100px 0px 140px;
+    background-color: rgb(182, 217, 240);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    display: inline;
+    border-radius: 10px;
+    text-align: center;
+}
+h4{
+    margin-top: 70px;
+}

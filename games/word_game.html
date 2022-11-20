@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	    <title>games_corner</title>
+        <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            header{
+                width:100%;
+                height:110px;
+                background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFh7BHjG5O7ssHQ8bGGmlHJdObdisj4c8Qw&usqp=CAU);
+            }
+            .msg{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            h1{
+                font-family: 'Corben', Georgia, Times, serif;
+                text-align:center;
+                color:purple;
+                font-weight: 800;
+                font-size:35px;
+                text-transform: uppercase;
+                letter-spacing:15px;
+                margin-top: 0px;
+                padding: 20px;
+            }
+            section{
+                margin-left: 300px;
+                margin-top: 50px;
+                height:340px;
+                width:700px;
+                display:flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items:center;
+                background-color: #904beb31;
+                box-shadow: 0px 6px 6px 0px rgba(128, 0, 128, 0.432);
+            }
+            h3{
+                text-align: center;
+                font-size:35px;
+            }
+            input{
+                display: block;
+                width:40%;
+                padding:15px 0px;
+                text-align:center;
+                border-radius:25px;
+                border:2px solid black;
+                background-color: #f2edf2;
+                color:black;
+                margin:30px;
+                margin-left: 140px;
+                font-size: 25px;
+            }
+            button{
+                font-size:20px;
+                cursor:pointer;
+                outline:none;
+                border:2px solid #2f3542;
+                border-radius: 25px;
+                text-decoration: none;
+                margin-top:10px 20px 30px 40px;
+                color:#904beb;
+            }
+            button.btn{
+                margin-left: 40px;
+                font-weight:600;
+                padding:25px 45px;
+                background:white;
+                text-transform: uppercase;
+                transition-property: all;
+                transition-duration: 0.5s;
+                transition-timing-function: ease-in-out;
+            }
+            button.btn:hover, button.btn:focus, button.btn:active{
+                letter-spacing:3px;
+                word-spacing: 5px;
+            }
+            .hidden{
+                display:none;
+            }
+            button.exit{
+                margin-left: 60px;
+                height: 74px;
+                width:135px;
+                padding:25px 45px;
+                background-color: white;
+                text-decoration: none;
+                color:#904beb;
+                font-weight: 600;
+            }
+            #sc{
+                height: 60px;
+                width: 210px;
+                font-size: 25px;
+                color: purple;
+                background-color: #904beb31;
+                box-shadow: 0px 10px 10px 0px rgba(128, 0, 128, 0.432);
+                font-family: 'Corben', Georgia, Times, serif;
+                margin-top: 10px;
+                padding:5px;
+            }
+            h4{
+                margin-left: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><span style="background-color:white">Guess the produce</span></h1>
+        </header>
+        <div id="sc">
+            <p>POINTS:<span id="score">  0</span></p>
+        </div>
+        <section>
+            <div>
+                <h3 class="msg"></h3>
+                <input type="text" class="hidden">
+                <button class="btn">Start!</button>
+                <button class="exit" onclick="history.back()">END</button>
+            </div>
+        </section>
+        <h4>©Fun Corner</h4>
+        <script type="text/javascript">
+            var c = 0;
+            var msg = document.querySelector('.msg');
+            var guess = document.querySelector('input');
+            var btn = document.querySelector('.btn');
+            var play = false;
+            var newWords = "";
+            var random = "";
+            var sWords = ['orange','tomato','peach','onion','watermelon','brinjal','apple','cabbage','cucumber','potato','banana','carrot',
+            'avocado','pea','fig','corn','grapes','leek','kiwi','pumpkin','muskmelon','garlic','pineapple','mushroom','mango','turnip',
+            'jackfruit','radish','pear','beetroot','guava','lettuce','papaya','pomegranate','cherry','plum','apricot','strawberry','blueberry'];
+            const createWords = () => {
+                var ran = Math.floor(Math.random() * sWords.length);
+                // console.log(ran);
+                var newSwords = sWords[ran];
+                // console.log(newSwords.split(""));
+                return newSwords;
+            }
+            var scramble = (arr) => {
+                for(var i = arr.length -1;i>0;i--){
+                    var temp = arr[i];
+                    // console.log(temp);
+                    var j = Math.floor(Math.random()*(i+1));
+                    // console.log(i);
+                    // console.log(j); // generates random number
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+                return arr;
+            }
+            btn.addEventListener('click', function()
+            {
+                if(!play)
+                {
+                    play = true;
+                    btn.innerHTML = "Guess";
+                    guess.classList.toggle('hidden');
+                    newWords = createWords();
+                    random = scramble(newWords.split("")).join("");
+                    // console.log(random.join(""));
+                    msg.innerHTML  = random;
+                }else{
+                    var tempWord = guess.value;
+                    if(tempWord === newWords){
+                        // console.log('correct');
+                        c++;
+                        play = false;
+                        msg.innerHTML = "Correct!";
+                        btn.innerHTML = "Next";
+                        guess.classList.toggle('hidden');
+                        guess.value = "";
+                        score.innerHTML = "  " + c;
+                    }else{
+                        // console.log('wrong');
+                        if(tempWord != ""){
+                        c--;
+                        score.innerHTML = "  " + c}
+                        msg.innerHTML = "Try again: " + random;
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
